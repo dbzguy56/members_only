@@ -1,0 +1,1 @@
+This is project is part of the Odin Project (https://www.theodinproject.com/lessons/authentication), where I create an application where members who are signed up can talk smack about other nonmembers by creating posts. You can only see who wrote the posts by being a member which you can do by signing up.
