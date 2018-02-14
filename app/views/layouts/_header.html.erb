@@ -1,0 +1,11 @@
+<header>
+  <nav>
+    <% if logged_in? %>
+      <%= link_to "Log out", logout_path, method: :delete %>
+      <%= link_to "Create a new post", posts_new_path %>
+    <% else %>
+      <%= link_to "Log in", login_path %>
+    <% end %>
+    <%= link_to "View all posts", posts_path %>
+  </nav>
+</header>
